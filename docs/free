@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+  <style>
+  .k section{
+      display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows:1fr 1fr 1fr;}
+    #ge{
+      font-weight: 800;
+      font-size: 40px;
+      text-align:center;
+      margin:0 auto;
+    }
+    
+    #fe, #se, #le, #ne, #co{
+      background-color: rgba(300, 150, 150, 1.0);
+      width: 50%;
+      border: solid 2px;
+      margin-left:40px;
+      margin-bottom:0px;
+      font-size: 20px;
+      text-align: center;
+      margin-top:0px;
+    }
+    a{
+      color: inherit;
+      text-decoration: inherit;
+      }
+    .j{
+      background-color:grey;
+      margin: 0 auto;
+      height: 80px;
+    }
+    .pa{
+      margin-right: 20px;
+    text-align: left;
+    position: relative:
+    right: 100px;}
+    .j li{
+      display: inline;
+      
+      font-family: Tahoma;
+      font-size:25px;
+      font-weight: 400;
+      color: purple;
+      text-align: right;
+    }
+    body{
+      margin: 0 auto;
+    }
+  .k{
+    background-color: green;
+    color: white;
+    height: 800px;
+   
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 auto;
+    width: 90%;
+    }
+    .i{
+      background-color: rgba(200, 100, 100, 0.1);
+      margin: 0 auto;
+      height: 60px;
+      
+    }
+      #logo{
+      font-size: 30px;
+      margin-right: 800px;
+      text-align: left;
+      font-family: Apple Chancery, cursive;
+    }
+    section  {
+      display: grid;
+      grid-gap: 50px ;
+      width: 95%;
+      margin: 30px;
+     
+    grid-template-columns: 200px 200px 200px;}
+    a:hover {
+      background-color: brown;
+    }
+    .up{
+      text-align:center;
+      color: black;}
+    .k div img{
+      margin-top:0px;
+      margin-left:20%;
+      height:100px;
+      width:100px;}
+    .i li{
+      font-weight:400;
+      text-align: left;
+      height: 80px;
+      display: inline;
+      margin: 20px;
+      }
+    
+  
+    .center {
+      text-align: center;
+      color: black;
+      font-weight:100;
+      font-size: 20px;}
+    #g img
+    {width: 150px;
+      }
+    .acc img,.upload img, .download img{
+      height: 200px;
+      width: 100px;
+      background-color: white;
+      position: relative;
+      left: 40px;}
+    .acc, .upload,.download
+    {border: black solid;
+      border-radius:20px;
+      height: 400px;}
+    video{
+      margin-left: 18%;}
+    footer{
+      background-color: grey;
+      height: 200px;}
+    footer div {
+      display: grid;
+      margin-top: 30px;
+      margin-left: 80px;
+      grid-template-columns: 400px 400px;
+    }
+    footer div li{
+      display: block;}
+    footer p{
+      text-align: center;}
+  </style>
+  
+  <link href="images/save.css" type="text/css" rel="spreadsheet"/>
+  </head>
+ <body>
+ <div>
+   
+  <ul class="j">
+   <br><li id ="logo">smartSolutions</li>
+   
+    <li class="pa"><a href="/Images/.html">LOGIN</a></li>
+    <li class="pa"><a href="/Images/signups.html">SIGN UP</a></li>
+    
+   </ul>
+   </div>
+   <div>
+   <ul class="i">
+     <br><li><a>ABOUT US</a></li>
+     <li><a>F.A.Q</a></li>
+     <li><a>CONTACT US</a></li>
+     <li><a>SAMPLE</a></li>
+     </ul>
+   </div>
+   <div class="k">
+     <p id="ge"><br>Create Proffessional</p>
+  <section>  <div id="f">  <img src="https://www.infracore.net/images/easyblog_shared/September_2017/9-13-17/Wordlogo400.jpg"><p id="fe">WORD DOCUMENTS</p></div>
+     
+   <div id="g"><img src="https://www.digitalcheck.com/wp-content/uploads/2018/03/adobe-pdf-logo.png" > <p id="le"> PDF DOCUMENTS</p></div>
+  <div id="f"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs8oFFPhFHLL-LFjFFyDe0XdVUCqgJv3itng&usqp=CAU"><p id="se"> EXCEL DOCUMENTS</p></div> <div id="f">
+    <img src="https://images-idgesg-net.cdn.ampproject.org/i/s/images.idgesg.net/images/article/2019/02/pcw-ppt-primary-100787681-large.jpg"> <p id="ne"> POWERPOINT PRESENTATION</p></div>
+    <div> <img src="https://www.cometdocs.com/images/best-conversion.png"><p id="co">FILE CONVERSION</p> </div>
+    </div></section>
+   <section>
+   <div class="acc">
+     <p class="center">Step One</p>
+     <br><img src="https://icon-library.com/images/account-icon/account-icon-12.jpg">
+     <p class="up"> <br>Create an Account</p>
+     </div>
+   <div class="upload">
+     <p class="center">Step Two</p>
+    <br> <img src="https://www.kindpng.com/picc/m/462-4629470_file-upload-logo-png-transparent-png.png"><br> <br>
+     <p class="up">Upload materials to work with(snapped paper, word, pdf, ppt or xsl documents)</p>
+   </div>
+   <div class="download">
+     <p class="center">Step Three</p><br> <img src="https://www.pmplasticmaterials.com/wp-content/themes/pmplasticmaterials/assets/custom-icons/icon-circle-download.svg"><br><br><p class="up">Download Professional Documents in formats of Your Choice</p>
+   </div>
+   </section> 
+   <video src="#" height=300" width="500" controls> </video>
+                                         <div class="packages">
+                                         </div>
+                                         <footer>
+       <div> <ul><strong>GETTING STARTED</strong>
+                                         <li> Home                                </li>
+                                         <li> About Us</li>
+                                         <li> Sign Up</li>
+                                         <li>Log In</li>
+                                         </ul>
+                                         <ul><strong>OUR COMPANY </strong>
+                                         <li>About Us</li>
+                                         
+                                         <li> F.A.Q</li>
+                                         <li>Sample</li>
+                                         <li>Privacy Policy</li></ul></div>
+                                         <p>Copyright 2020. All Rights Reserved</p>
+                                         </footer>
+     
+  </body>
+</html>

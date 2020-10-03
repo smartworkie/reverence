@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
  <meta charset="utf-8">
   <style>
+    html{
+      width: 100%;
+      overflow: hide;
+    }
   .k section{
       display: grid;
+    margin-left: 40px;
     grid-template-columns: 300px 300px;
-    grid-template-rows:1fr 1fr 1fr;}
+    grid-template-rows:1fr 1fr 1fr;
+    grid-gap: 30px 400px;}
     #ge{
       font-weight: 800;
       font-size: 40px;
@@ -32,12 +40,12 @@
       background-color:grey;
       margin: 0 auto;
       height: 80px;
+      width: 100%;
     }
     .pa{
       margin-right: 20px;
     text-align: left;
-    position: relative:
-    right: 100px;}
+   }
     .j li{
       display: inline;
       
@@ -45,17 +53,17 @@
       font-size:25px;
       font-weight: 400;
       color: purple;
-      text-align: right;
+      
     }
     body{
       margin: 0 auto;
+      width: 100%;
     }
   .k{
     background-color: green;
     color: white;
-    height: 800px;
-   
-    font-size: 40px;
+    height: 600px;
+   font-size: 30px;
     font-weight: 400;
     margin: 0 auto;
     width: 90%;
@@ -68,17 +76,19 @@
     }
       #logo{
       font-size: 30px;
-      margin-right: 800px;
+      margin-right:700px;
       text-align: left;
       font-family: Apple Chancery, cursive;
     }
-    section  {
+   
+    #r{
       display: grid;
-      grid-gap: 50px ;
+      grid-gap: 50px;
       width: 95%;
-      margin: 30px;
-     
-    grid-template-columns: 200px 200px 200px;}
+      margin-left: 180px;
+      margin-top: 30px;
+      grid-template-columns: 200px 200px 200px 200px;
+    }
     a:hover {
       background-color: brown;
     }
@@ -87,9 +97,9 @@
       color: black;}
     .k div img{
       margin-top:0px;
-      margin-left:20%;
-      height:100px;
-      width:100px;}
+      margin-left:90px;
+      height:60px;
+      width:60px;}
     .i li{
       font-weight:400;
       text-align: left;
@@ -106,18 +116,21 @@
       font-size: 20px;}
     #g img
     {width: 150px;
+      margin-left: 70px;
       }
-    .acc img,.upload img, .download img{
+    .acc img,.upload img, .download img, .pay img{
       height: 200px;
       width: 100px;
+      max-width: 100%;
       background-color: white;
       position: relative;
       left: 40px;}
-    .acc, .upload,.download
+    .acc, .upload,.download, .pay
     {border: black solid;
       border-radius:20px;
       height: 400px;}
     video{
+      margin-top: 30px;
       margin-left: 18%;}
     footer{
       background-color: grey;
@@ -142,8 +155,8 @@
   <ul class="j">
    <br><li id ="logo">smartSolutions</li>
    
-    <li class="pa"><a href="/Images/.html">LOGIN</a></li>
-    <li class="pa"><a href="/Images/signups.html">SIGN UP</a></li>
+   <li class="pa"><a href="/Images/login.html">LOGIN</a></li>
+     <li class="pa"><a href="/Images/signups.html">SIGN UP</a></li>
     
    </ul>
    </div>
@@ -162,9 +175,9 @@
    <div id="g"><img src="https://www.digitalcheck.com/wp-content/uploads/2018/03/adobe-pdf-logo.png" > <p id="le"> PDF DOCUMENTS</p></div>
   <div id="f"> <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQs8oFFPhFHLL-LFjFFyDe0XdVUCqgJv3itng&usqp=CAU"><p id="se"> EXCEL DOCUMENTS</p></div> <div id="f">
     <img src="https://images-idgesg-net.cdn.ampproject.org/i/s/images.idgesg.net/images/article/2019/02/pcw-ppt-primary-100787681-large.jpg"> <p id="ne"> POWERPOINT PRESENTATION</p></div>
-    <div> <img src="https://www.cometdocs.com/images/best-conversion.png"><p id="co">FILE CONVERSION</p> </div>
+    <div id="f"> <img src="https://www.cometdocs.com/images/best-conversion.png"><p id="co">FILE CONVERSION</p> </div>
     </div></section>
-   <section>
+   <section id="r">
    <div class="acc">
      <p class="center">Step One</p>
      <br><img src="https://icon-library.com/images/account-icon/account-icon-12.jpg">
@@ -175,8 +188,14 @@
     <br> <img src="https://www.kindpng.com/picc/m/462-4629470_file-upload-logo-png-transparent-png.png"><br> <br>
      <p class="up">Upload materials to work with(snapped paper, word, pdf, ppt or xsl documents)</p>
    </div>
-   <div class="download">
-     <p class="center">Step Three</p><br> <img src="https://www.pmplasticmaterials.com/wp-content/themes/pmplasticmaterials/assets/custom-icons/icon-circle-download.svg"><br><br><p class="up">Download Professional Documents in formats of Your Choice</p>
+   
+     <div class="pay">
+       <p class="center">Step Three</p>
+       <br><img src= "https://steemitimages.com/640x0/https://i.imgur.com/9QEaqww.png"><br> <br>
+       <p class="up"> <br> Pay for Selected Service </p>
+       </div>
+     <div class="download">
+     <p class="center">Step Four</p><br> <img src="https://www.pmplasticmaterials.com/wp-content/themes/pmplasticmaterials/assets/custom-icons/icon-circle-download.svg"><br><br><p class="up">Download Professional Documents in formats of Your Choice</p>
    </div>
    </section> 
    <video src="#" height=300" width="500" controls> </video>
